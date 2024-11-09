@@ -6,7 +6,7 @@ services:
     image: my-image:latest
     container_name: my-container
     ports:
-      - "8080:8080"  # Map host port 8080 to container port 8080
+      - "80:8080"  # Map host port 8080 to container port 8080
     environment:
       - ENV_VAR=example  # Set environment variables
     volumes:
