@@ -8,7 +8,7 @@ app = Flask(__name__)
 # root url passed two variables
 @app.route('/')
 def index():
-    return "RUNNING"
+    return "HELLO 🌍"
 
 
 if __name__ == '__main__':
